@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Headland+One|Merriweather');
+html, body {
+	font-family: "fira-sans-2", sans-serif;
+	color: #333;
+	font-size: 15px;
+	padding: 1% 1%;
+	text-align: justify;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.h1 {
+	font-family: 'Headland One', serif;
+	color: #8B0000;
+	font-size: 50px;
+	border-bottom: 3px solid #8B0000;
+}
+
+
+caption {
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+	padding-bottom: 40px;
+	-webkit-animation: fadein 0.7s, fadeout 0.7s 2s;
+
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+button{
+	padding: 5px;
+	align-items: center;
+	align-content: center;
+	 background-color: #de4700;
+	 color: white;
+	 padding: 15px 32px;
+	 font-size: 16px;
+	 border-radius: 7px;
+	 display:inline-block;
+}
+table {
+	font-family: 'Merriweather', serif;
+	margin: auto;
+	margin-bottom: 50px;
+	border-collapse: collapse
+}
+#ranks{
+	border: 1px solid #ddd;
+	padding: 70px;
+	background-color: #8B0000;
+	color: white;
+	text-align: center;
+	font-size: 120%;
+
+}
+#regroup{
+	text-align: center;
+	border: 1px solid black;
+}
+#artToDrag1,#artToDrag2,#artToDrag3,#artToDrag4,#artToDrag5{
+	margin: 3px;
+	font-family:inherit;
+	font-size: 25px;
+	color: #8B0000;
+	text-shadow:
+	-1px -1px 0 white,
+	1px -1px 0 white,
+	-1px 1px 0 white,
+	1px 1px 0 white;
+}
+#dropArea{
+
+	background-color: #8B0000;
+	text-align: center;
+  width: 100px;
+  height: 35px;
+  padding: 10px;
+	padding-bottom: 100px;
+	background-color: #E4B53;
+  border: 1px solid #ddd;
+}
+
+.container {
+	padding: 2% 3%;
+}

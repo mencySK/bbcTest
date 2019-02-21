@@ -1,0 +1,62 @@
+{
+  "title": "Praesent bibendum nec velit a fringilla. Nulla facilisi",
+  "body": [
+    {
+      "type": "heading",
+      "model": {
+        "text": "Nam eu varius magna, vel molestie diam"
+      }
+    },
+    {
+      "type": "image",
+      "model": {
+        "url": "https://picsum.photos/640/420/?random",
+        "altText": "Vestibulum pellentesque laoreet urna, eget dignissim lorem maximus vel",
+        "height": "420",
+        "width": "640"
+      }
+    },
+    {
+      "type": "paragraph",
+      "model": {
+        "text": "Integer lobortis, magna et tempor facilisis, arcu dui finibus mauris, pellentesque fringilla massa sem non justo. Phasellus vel arcu eu eros commodo egestas at non dui. Ut ultricies quis nunc ut commodo"
+      }
+    },
+    {
+      "type": "paragraph",
+      "model": {
+        "text": "Aenean justo urna, tempor vitae consectetur nec, ornare eget nunc. Duis ornare ipsum in quam auctor feugiat. Vestibulum sapien metus, rutrum et mattis ut, tincidunt in dolor. Praesent semper laoreet augue. Etiam lacinia hendrerit euismod."
+      }
+    },
+    {
+      "type": "image",
+      "model": {
+        "url": "https://picsum.photos/640/420/?random",
+        "altText": "Curabitur dictum leo bibendum lacus ultrices fringilla et quis justo",
+        "height": "420",
+        "width": "640"
+      }
+    },
+    {
+      "type": "paragraph",
+      "model": {
+        "text": "Morbi venenatis aliquam cursus. Sed eros elit, consequat id faucibus vel, interdum fringilla massa."
+      }
+    },
+    {
+      "type": "image",
+      "model": {
+        "url": "https://picsum.photos/640/420/?random",
+        "altText": "Curabitur dictum leo bibendum lacus ultrices fringilla et quis justo",
+        "height": "420",
+        "width": "640"
+      }
+    },
+    {
+      "type": "paragraph",
+      "model": {
+        "text": "Morbi venenatis aliquam cursus. Sed eros elit, consequat id faucibus vel, interdum fringilla massa."
+      }
+    }
+  ]
+}
