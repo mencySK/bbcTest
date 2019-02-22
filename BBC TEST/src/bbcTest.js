@@ -34,9 +34,10 @@ function generateArticle(articleNumber) {
 
   </ul>
 
+
   `
   :'Error'}
-    `).join('')} <!-- end of loop -->
+    `).join('')} <!-- end of arrow -->
 
    <!-- Creating Back / Next buttons-->
     ${articleNumber==1 ?
@@ -75,11 +76,11 @@ function rankArticle(){
     `).join('')}
   </div>
 </th>
-  <th id="ranks">Bad</th>
-  <th id="ranks">Decent</th>
-  <th id="ranks">Good</th>
+  <th id="ranks">Excellent</th>
   <th id="ranks">Very Good</th>
-  <th id="ranks">Excelent</th>
+  <th id="ranks">Good</th>
+  <th id="ranks">Decent</th>
+  <th id="ranks">Bad</th>
 </tr>
 
 <tr>

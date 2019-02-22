@@ -6,21 +6,22 @@ html, body {
 	padding: 1% 1%;
 	text-align: justify;
 }
+
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	margin-bottom: 15px;
 }
 .h1 {
 	font-family: 'Headland One', serif;
 	color: #8B0000;
-	font-size: 50px;
-	border-bottom: 3px solid #8B0000;
+	font-size: 70px;
 }
 
 
 caption {
+	margin-top: 30px;
 	font-family: 'Merriweather', serif;
 	font-size: 20px;
 	padding-bottom: 40px;
@@ -45,6 +46,7 @@ button{
 	 background-color: #de4700;
 	 color: white;
 	 padding: 15px 32px;
+	margin-right: 15px;
 	 font-size: 16px;
 	 border-radius: 7px;
 	 display:inline-block;
@@ -53,26 +55,28 @@ table {
 	font-family: 'Merriweather', serif;
 	margin: auto;
 	margin-bottom: 50px;
-	border-collapse: collapse
+	border-collapse: collapse;
 }
 #ranks{
 	border: 1px solid #ddd;
 	padding: 70px;
-	background-color: #8B0000;
+	background-color: #bb1919;
 	color: white;
 	text-align: center;
 	font-size: 120%;
+	width: 50px;
 
 }
 #regroup{
 	text-align: center;
-	border: 1px solid black;
+	border: 2px solid black;
+	margin-right: 50px;
 }
 #artToDrag1,#artToDrag2,#artToDrag3,#artToDrag4,#artToDrag5{
 	margin: 3px;
 	font-family:inherit;
 	font-size: 25px;
-	color: #8B0000;
+	color: #bb1919;
 	text-shadow:
 	-1px -1px 0 white,
 	1px -1px 0 white,
@@ -80,15 +84,13 @@ table {
 	1px 1px 0 white;
 }
 #dropArea{
-
-	background-color: #8B0000;
-	text-align: center;
-  width: 100px;
-  height: 35px;
-  padding: 10px;
-	padding-bottom: 100px;
-	background-color: #E4B53;
-  border: 1px solid #ddd;
+  	background-color: #bb1919;
+  	text-align: center;
+  	width: 80px;
+  	height: 130px;
+  	padding: 10px;
+  	padding-bottom: 50px;
+  	border: 1px solid #ddd;
 }
 
 .container {
