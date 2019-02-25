@@ -17,6 +17,8 @@ function generateArticle(articleNumber) {
   console.log(data);
   document.title=(data.title);
   document.getElementById("article").innerHTML =`
+  <h2> Article ${articleNumber} </h2>
+    <hr style="border: 5px solid #8B0000;" />
     ${Array(data.body.length).join(0).split(0).map((item, i) => `
      <link rel="preload" href="article-${articleNumber+1}.json" as="fetch">
       ${data.body[i].type=="paragraph" ?

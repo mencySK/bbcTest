@@ -6,19 +6,56 @@ html, body {
 	padding: 1% 1%;
 	text-align: justify;
 }
+.container {
+	padding: 2% 3%;
+	background-color: #8B0000;
+}
+#logo{
+	background-color: white;
+}
 
 .center {
   	display: block;
   	margin-left: auto;
   	margin-right: auto;
-	margin-bottom: 15px;
+		margin-bottom: 15px;
 }
 .h1 {
 	font-family: 'Headland One', serif;
-	color: #8B0000;
+	color: white;
 	font-size: 70px;
 }
+h1{
+	margin-top: 24px;
+	color: #2e2e1f;
+}
+h2{
+	font-size: 2rem;
+	font-family: Arial,Helvetica,freesans,sans-serif;
+	color: black;
+}
+ul{
+	color:black;
+}
 
+button{
+	padding: 5px;
+	align-items: center;
+	align-content: center;
+	background-color: #de4700;
+	color: white;
+	padding: 15px 32px;
+	margin-right: 15px;
+	font-size: 16px;
+	border-radius: 7px;
+	display:inline-block;
+}
+table {
+	font-family: 'Merriweather', serif;
+	margin: auto;
+	margin-bottom: 50px;
+	border-collapse: collapse;
+}
 
 caption {
 	margin-top: 30px;
@@ -39,33 +76,13 @@ caption {
   to {bottom: 0; opacity: 0;}
 }
 
-button{
-	padding: 5px;
-	align-items: center;
-	align-content: center;
-	 background-color: #de4700;
-	 color: white;
-	 padding: 15px 32px;
-	margin-right: 15px;
-	 font-size: 16px;
-	 border-radius: 7px;
-	 display:inline-block;
-}
-table {
-	font-family: 'Merriweather', serif;
-	margin: auto;
-	margin-bottom: 50px;
-	border-collapse: collapse;
-}
 #ranks{
 	border: 1px solid #ddd;
-	padding: 70px;
+	padding: 60px;
 	background-color: #bb1919;
 	color: white;
 	text-align: center;
 	font-size: 120%;
-	width: 50px;
-
 }
 #regroup{
 	text-align: center;
@@ -91,8 +108,4 @@ table {
   	padding: 10px;
   	padding-bottom: 50px;
   	border: 1px solid #ddd;
-}
-
-.container {
-	padding: 2% 3%;
 }
