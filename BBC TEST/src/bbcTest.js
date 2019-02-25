@@ -17,10 +17,11 @@ function generateArticle(articleNumber) {
   console.log(data);
   document.title=(data.title);
   document.getElementById("article").innerHTML =`
+  <hr/>
     <i class="arrow right"> </i>
 	<h2> Article ${articleNumber} </h2>
-
     <hr/>
+    <div id="paddingArticle">
     ${Array(data.body.length).join(0).split(0).map((item, i) => `
      <link rel="preload" href="article-${articleNumber+1}.json" as="fetch">
       ${data.body[i].type=="paragraph" ?
@@ -42,7 +43,6 @@ function generateArticle(articleNumber) {
   `
   :'Error'}
     `).join('')} <!-- end of arrow -->
-
    <!-- Creating Back / Next buttons-->
     ${articleNumber==1 ?
       `<button onclick="generateArticle(++articleNumber)">Next Article</button>`
@@ -55,6 +55,7 @@ function generateArticle(articleNumber) {
 `
 
   }
+  </div>
 `;
 
     });
