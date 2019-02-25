@@ -17,8 +17,10 @@ function generateArticle(articleNumber) {
   console.log(data);
   document.title=(data.title);
   document.getElementById("article").innerHTML =`
-  <h2> Article ${articleNumber} </h2>
-    <hr style="border: 5px solid #8B0000;" />
+    <i class="arrow right"> </i>
+	<h2> Article ${articleNumber} </h2>
+
+    <hr/>
     ${Array(data.body.length).join(0).split(0).map((item, i) => `
      <link rel="preload" href="article-${articleNumber+1}.json" as="fetch">
       ${data.body[i].type=="paragraph" ?
@@ -43,13 +45,14 @@ function generateArticle(articleNumber) {
 
    <!-- Creating Back / Next buttons-->
     ${articleNumber==1 ?
-      `<button onclick="generateArticle(++articleNumber)">Next</button>`
+      `<button onclick="generateArticle(++articleNumber)">Next Article</button>`
     : articleNumber==5 ?
-      `<button onclick="generateArticle(--articleNumber)">Back</button>
+      `<button onclick="generateArticle(--articleNumber)">Previous Article</button>
       <button onclick="rankArticle() ">Rank Articles</button>`
     :
-        `<button onclick="generateArticle(--articleNumber)">Back</button>
-        <button onclick="generateArticle(++articleNumber)">Next</button>`
+        `<button onclick="generateArticle(--articleNumber)">Previous Article</button>
+        <button onclick="generateArticle(++articleNumber)">Next Article </button>
+`
 
   }
 `;
@@ -117,7 +120,6 @@ function DownloadData(){
       filename:'sample.csv',
       htmlContent:'false',
     });
-
     alert("Thank you for your feedback !");
     document.getElementById("submitButton").remove();
 
